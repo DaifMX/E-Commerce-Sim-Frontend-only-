@@ -60,7 +60,8 @@
   outline: none
   }
   .form-group .d-flex {
-  border: 1px solid #ddd
+  align-items: center;
+  border: 1px solid rgb(221, 221, 221)
   }
   .form-group .d-flex input {
   width: 95%
@@ -68,7 +69,7 @@
   .form-group .d-flex:hover {
   color: #000;
   cursor: pointer;
-  border: 1px solid #008000
+  border: 1px solid #460080
   }
   select {
   width: 100%;
@@ -251,6 +252,27 @@
     text-decoration: none;
   }
 
-.continueToShopping{
-  max-width: 66.9%;
+.continuePayment{
+  max-width: 72.5%;
+}
+
+#itemInCart{
+  display: flex;
+  flex-direction: column;
+  align-items: left !important; 
+}
+
+#itemName{
+  display: flex;
+  width: 85%;
+}
+
+#itemName:hover{
+  color:red
+}
+
+.superContainer{
+  width: 100%;
+  display: flex;
+  margin: 15px 0px;
 }
